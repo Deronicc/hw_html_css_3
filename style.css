@@ -38,7 +38,20 @@ header {
   margin-bottom: 43px;
 }
 
+.navigation.container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .logo_img {
+  display: flex;
+  gap: 500px;
+}
+
+.menu {
+  max-width: 533px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .navigation a {
